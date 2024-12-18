@@ -33,4 +33,3 @@ with open('books_scrape.csv', 'w', newline='', encoding='utf-8') as csv_file:
         csv_writer.writerow([title, price, availability, rating])
 
 print('Books scraping complete. Data saved to books_scrape.csv')
-
